@@ -1,10 +1,11 @@
 package basisProgameren;
-
-import java.swing.Spring;
+import java.util.Scanner;
 
 public class mastermind {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
 		String speler1 = "code kraker";
 		String speller2 = "code maker";
 
@@ -12,20 +13,24 @@ public class mastermind {
 				String groenePion =  "groen";
 				String gelePion = "geel";
 				String rodePion = "rood";
+				String paarsePion = "paars";
+				String oranjePion = "oranje";
 
 				String zwartePin = "zwart";
 				String witePin = "wit";
 				String geenPin = "niks";
+				
+				
 
-				String verborgenRijVak1 = "";
-				String verborgenRijVak2 = "";
-				String verborgenRijVak3 = "";
-				String verborgenRijVak4 = "";
+				String verborgenRijVak1 = "paars";
+				String verborgenRijVak2 = "oranje";
+				String verborgenRijVak3 = "rood";
+				String verborgenRijVak4 = "blouw";
 
-				String rij1Vak1 = "";
-				String rij1Vak2 = "";
-				String rij1Vak3 = "";
-				String rij1Vak4 = "";
+				String rij1Vak1 = "gekozePion1Rij1";
+				String rij1Vak2 = "gekozePion2Rij1";
+				String rij1Vak3 = "gekozePion3Rij1";
+				String rij1Vak4 = "gekozePion4Rij1";
 				
 				String rij2Vak1 ="";
 				String rij2Vak2 ="";
@@ -121,6 +126,15 @@ public class mastermind {
 				String controlerRij10Vak2 ="";
 				String controlerRij10Vak3 ="";
 				String controlerRij10Vak4 ="";
+				
+				System.out.println("Kies 4 kleuren:");
+				String gekozePion1Rij1 = sc.next();
+				String gekozePion2Rij1 = sc.next();
+				String gekozePion3Rij1 = sc.next();
+				String gekozePion4Rij1 = sc.next();
+				
+				
+				
 
 		
 
