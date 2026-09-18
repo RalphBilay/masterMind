@@ -23,10 +23,10 @@ public class mastermind {
 
 
 
-		String verborgenRijVak1 = "paars";
-		String verborgenRijVak2 = "oranje";
-		String verborgenRijVak3 = "rood";
-		String verborgenRijVak4 = "blouw";
+		String verborgenRijVak1 = paarsePion;
+		String verborgenRijVak2 = oranjePion;
+		String verborgenRijVak3 = rodePion;
+		String verborgenRijVak4 = blouwePion;
 
 		System.out.println("Kies 4 kleuren:");
 		System.out.println("================");
@@ -203,9 +203,6 @@ public class mastermind {
 		}
 
 
-		//				} else if(rij1Vak1 == verborgenRijVak2);{
-		//					System.out.println(wittePin);
-		//					}}
 
 	}}
 
