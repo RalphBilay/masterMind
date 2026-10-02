@@ -31,10 +31,9 @@ public class mastermind {
 		boolean pin2Correct = false;
 		boolean pin3Correct = false;
 		boolean pin4Correct = false;
-		int loop = 1;
 		
 
-do {
+for (int loop = 1;(pin1Correct == false || pin2Correct == false || pin3Correct == false || pin4Correct == false) && loop<10; loop++){
 		System.out.println("Kies 4 kleuren ronde " + loop);
 		System.out.println("================");
 		
@@ -115,10 +114,10 @@ do {
 		else {
 			System.out.println(geenPin);
 		}
-		loop++;
+		
 
 }
-while((pin1Correct == false || pin2Correct == false || pin3Correct == false || pin4Correct == false) && loop<=10);
+
 
 
 if(pin1Correct == true && pin2Correct == true && pin3Correct == true && pin4Correct == true) {
